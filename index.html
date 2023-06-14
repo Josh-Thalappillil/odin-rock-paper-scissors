@@ -8,7 +8,12 @@
     <title>Rock Paper Scissors</title>
 </head>
 <body>
-    <h1>Odin Project - Rock Paper Scissors Game</h1>
+    <nav>
+        <div class="logo">Rock Paper Scissors</div>
+    </nav>
+
+    <section class="hero">
+
     <div class="buttons" id="game">
         <button data-choice="Rock">Rock</button>
         <button data-choice="Paper">Paper</button>
@@ -17,13 +22,14 @@
     
     <br>
     
-    <div>
-        <label id="userScore">0</label><br>
+    <div class="scores">
+        <label id="userScore">0</label>
         <label id="computerScore">0</label>
     </div>
     <div>
         <p id="output"></p>
     </div>
+    </section>
     <script src="./index.js"></script>
 </body>
 </html>
