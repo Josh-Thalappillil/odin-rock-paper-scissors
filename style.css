@@ -1,3 +1,16 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+#game button{
+    border-radius: 5px;
+    margin: 30px;
+    padding: 10px;
+    flex-grow: 1;
+    width: 150px;
+
+#game{
+    display: flex;
+    justify-content: center;
+    
+}
